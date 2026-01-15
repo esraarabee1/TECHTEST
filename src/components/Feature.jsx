@@ -1,7 +1,7 @@
 import React from "react";
 import f1 from "../assets/f1.png";
 import spanicon from "../assets/spanicon.png";
-
+import arrow from "../assets/arrow.png";
 const Feature = () => {
   return (
     <section className="bg-[#26262B] text-white py-24">
@@ -47,6 +47,21 @@ const Feature = () => {
             />
           </div>
         </div>
+        <div className="flex justify-center items-center py-15 gap-2">
+          <img src={arrow} className="w-4 h-4" />
+          <p className="">View all superpowers</p>
+        </div>
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12">
+          <h2 className="text-2xl md:text-3xl font-semibold">
+            Your Setapp journey.
+          </h2>
+
+          <p className="text-gray-400 mt-4 md:mt-0 text-sm md:text-base">
+            Type in your task into Setapp search and get instant app<br></br>
+            recommendations.
+          </p>
+        </div>
+        <hr></hr>
       </div>
     </section>
   );
