@@ -1,5 +1,5 @@
 import React from "react";
-import vector from "../assets/vector.png";
+
 import logoo from "../assets/logoo.png";
 
 const Footer = () => {
@@ -29,7 +29,7 @@ const Footer = () => {
               <div className="h-6 w-px bg-white/10"></div>
 
               <button className="px-4 py-2  hover:opacity-80 rounded-sm  bg-white">
-                <img src={vector} alt="send" className="w-4" />
+                {/* <img src={vector} alt="send" className="w-4" /> */}
               </button>
             </div>
           </div>
