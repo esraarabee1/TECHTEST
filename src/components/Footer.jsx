@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="bg-[#26262B] text-white pt-20 pb-10">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between gap-12">
-          {/* Left */}
           <div className="md:w-1/2">
             {/* Logo */}
             <div className="flex items-center gap-2 mb-6">
