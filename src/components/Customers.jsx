@@ -4,8 +4,8 @@ import arroww from "../assets/arroww.png";
 
 const Customers = () => {
   return (
-    <section className="bg-[#26262B] py-24">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="bg-[#26262B] py-24 relative">
+      <div className="max-w-6xl mx-auto px-6 absolute top-0 left-0 right-0 ">
         <div className="bg-[#7a5574] rounded-2xl p-10 md:p-14 flex flex-col md:flex-row items-center justify-between gap-10 relative">
           {/* Text side */}
           <div className="md:w-1/2 text-white">

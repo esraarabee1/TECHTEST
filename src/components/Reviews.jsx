@@ -8,7 +8,7 @@ import socialicon from "../assets/socialicon.png";
 
 const Reviews = () => {
   return (
-    <section className="bg-[#FEFEFE] text-black py-24">
+    <section className="bg-[#FEFEFE] text-black py-24 pt-100">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-14">
