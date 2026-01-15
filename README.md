@@ -1,3 +1,3 @@
 ## 📸 Preview
 
-![Header and Home](src/assets/Screenshott.png)
+![Home page](src/assets/homepge.png)
